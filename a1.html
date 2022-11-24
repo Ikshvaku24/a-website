@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body{background-image:url("download (9).jpg");
+     background-size: cover;}
+div.we{font-famiy:Tempus Sans ITC;
+       font-size:60px;
+      padding:6px;
+      color:yellow;
+    text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;}
+
+
+
+
+@keyframes example {
+   0%{color: yellow;}
+   25%{color:Magenta  ;}
+   50%{color: GreenYellow  ;}
+   75%{color: GoldenRod  ;}
+  100%{color: yellow;}
+}
+.button {
+  border-radius: 4px;
+  background-color: PaleGoldenRod;
+  border: none;
+  color: ForestGreen ;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ box-shadow: 10px 5px LightCyan ;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button:active {
+box-shadow: 2px 2px LightCyan;
+  transform: translateX(4px);
+}
+
+</style>
+</head>
+<body>
+
+ 
+<div align="center">
+<div class="we"> Welcome To The World Of Heritage</style></font></div>
+</div>
+<font face="Comic sans MS" size="6" color="Indigo" >What are the Heritage Sites?</font><br><br><br>
+<font face="calibri" size="4" > 
+
+<img src="gs.png" 
+height="168" width="200" style="float:right; border: 18px solid BLUE;border-radius: 100%;">
+ A World Heritage Site is a landmark which has been officially recognized by the United Nations, specifically by UNESCO. Sites are selected on the basis of having cultural, historical, scientific or some other form of significance, and they are legally protected by international treaties.
+
+
+ <script>
+  var string="A World Heritage Site is a landmark which has been officially recognized by the United Nations specifically by UNESCO. Sites are selected on the basis of having cultural, historical, scientific or some other form of significance, and they are legally protected by international treaties." + "UNESCO regards these sites  as being important to the collective interests of humanity. More specifically, a World Heritage Site is an already classified landmark on the earth, which by way of being unique in some respect as a geographically and historically identifiable piece is of special cultural or physical significance (such as either due to hosting an ancient ruins or some historical structure, building, city, complex, desert, forest, island, lake, monument, or mountain) and symbolizes a remarkable footprint of extreme human endeavour often coupled with some act of indisputable accomplishment of humanity which then serves as a surviving evidence of its intellectual existence on the planet. And with an ignoble intent of its practical conservation for posterity, but which otherwise  could be subject to inherent risk of endangerment from human or animal trespassing, owing to unmonitored/uncontrolled/unrestricted nature of access or threat by natural or accelerated extinction owing to local administrative negligence, hence it would have been listed and demarcated by the United Nations Educational, Scientific and Cultural Organization (UNESCO) to have been identified or recognised and officially christened and internationally elevated through multilateral declaration by UNESCO as a universally protected zone.  The list is maintained by the international World Heritage Programme administered by the UNESCO World Heritage Committee, composed of 21 UNESCO member states which are elected by the General Assembly."
+  function myFunction() { document.getElementById("demo").innerHTML =  string    }
+  </script>
+<p id="demo"><img src="fs.png" height="168" width="200" style="float:left; border: 18px outset ORANGE;"> </p>
+<button class="button" type="button" onclick="myFunction()" ><span>Click To Read More </span></button>
+
+
+</body>
+</html>

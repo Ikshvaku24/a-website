@@ -1,0 +1,75 @@
+<!DOCTYPE html><head>
+
+<title>Wowslider.com</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+div.background {
+  background: url("download2.jpg") repeat ;
+  border: 12px groove RED;
+  border-radius:25px;
+  overflow-y:hidden;
+   }
+
+
+div.transbox { margin: 40px 240px;
+	 padding:6px;
+	 border:15px outset LawnGreen;
+	 border-radius: 25px;
+	 background-color:Khaki ;
+         text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ box-shadow:2px 4px 5px pink;
+position: relative;
+  overflow:hidden; 
+
+}
+
+div.transbox p {
+  margin:0;
+  font-weight: bold;
+  color: white;
+  font-size:40px;
+  text-align:center;
+  overflow:hidden;
+ 
+}
+video.e{ float:left;
+        border:8px inset yellow;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+             transition: width 2s, height 2s, transform 2s;}
+.e:hover{ height:300px;
+             width:300px;
+border:none;
+	     -webkit-transform: rotate(360deg);
+             transform: rotate(360deg);
+            }
+
+video.r{ float:right;
+        border:8px inset yellow;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+             transition: width 2s, height 2s, transform 2s;}
+.r:hover{ height:300px;
+             width:300px;
+border:none;
+	     -webkit-transform: rotate(360deg);
+             transform: rotate(360deg);
+            }
+</style>
+</head>
+<body style="overflow-y:auto;">
+<div class="background"><video class="r" height="180" width="200"  autoplay loop="infinite" poster="download.jpg"src="Untitled_0001.mp4.mp4" >
+ 
+</video>
+<video class="e" height="180" width="200"  autoplay loop="infinite" poster="download.jpg"src="56.mp4" >
+ 
+</video>
+  <div class="transbox">
+    <p>
+World Heritage Sites
+</p>
+  </div>
+</div>
+</body>
+
+</html>
